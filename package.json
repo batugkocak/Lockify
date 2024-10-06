@@ -1,0 +1,30 @@
+{
+  "name": "securify",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js",
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "author": "Batug Kocak <batugkocak@gmail.com>",
+  "license": "ISC",
+  "description": "An authentication and authorization service built with Node.js, Express, and TypeScript. Implements OAuth 2.0, JWT authentication, social logins (Google, GitHub), and role-based access control.",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.15",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}
